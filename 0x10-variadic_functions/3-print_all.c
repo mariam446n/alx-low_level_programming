@@ -36,7 +36,7 @@
 						break;
 					case 's':
 						str = va_arg(list, char *);
-						if (!str)
+						if (str == NULL)
 							str = "(nil)";
 						printf("%s%s", sep, str);
 						break;
@@ -48,9 +48,6 @@
 				i++;
 			}
 		}
-
-
 		printf("\n");
 		va_end(list);
 	}
-
