@@ -3,8 +3,8 @@
 
 
 	/**
-	 * sum_them_all - Returns the sum of all its paramters.
-	 * @n: The number of paramters passed to the function.
+	 * sum_them_all - sum all paramter passed to the function.
+	 * @n: The number of argument to be passed to sum
 	 * @...: A variable number of paramters to calculate the sum of.
 	 *
 	 * Return: If n == 0 - 0.
@@ -28,4 +28,3 @@
 
 		return (sum);
 	}
-
